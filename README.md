@@ -37,6 +37,6 @@
 
 ## 4. 파일 구성
 - `data/`: 분석에 사용된 데이터셋
-- `experiments/`: 단계별 전처리 및 개선 실험 노트
-- `final_model.ipynb`: 최적의 하이퍼파라미터가 적용된 최종 예측 모델
-- `develop_model.ipynb`: 최적의 하이퍼파라미터와 SMOTE, 파생 변수를 적용한 최적화 시도 모델
+- `notebooks/`: 단계별 전처리 및 개선 실험 스크립트 (`experiment1_feature.py`, `experiment2_normalize.py`, `experiment3_missing.py`)
+- `final_model.py`: 최적의 하이퍼파라미터가 적용된 최종 예측 모델
+- `develop_model.py`: 최적의 하이퍼파라미터와 SMOTE, 파생 변수를 적용한 최적화 시도 모델
